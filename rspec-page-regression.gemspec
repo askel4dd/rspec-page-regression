@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   if RUBY_PLATFORM == 'java'
     spec.add_dependency "chunky_png"
   else
-    spec.add_dependency "oily_png"
+    spec.add_dependency "oily_png", '>= 1.0.0'
   end
 
   spec.add_dependency "poltergeist"
